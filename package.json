@@ -19,15 +19,15 @@
         "commands": [
         {
             "command": "extension.relnoteja",
-            "title": "JP-VSCode-Docs: Visual Studio Code 日本語リリースノート"
+            "title": "Japanese Release Note: Visual Studio Code 日本語リリースノート"
         }
         ],
         "configuration": {
         "type": "object",
-        "title": "vscode-relnote-ja",
+        "title": "releasenote-viewer",
         "order": 20,
         "properties": {
-            "vscode-relnote-ja.showPreviewToSide": {
+            "releasenote-viewer.showPreviewToSide": {
             "type": "boolean",
             "default": false
             }

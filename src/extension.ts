@@ -6,7 +6,7 @@ import * as request from 'request';
 var baseRequest;
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('Congratulations, your extension "vscode-relnote-ja" is now active!');
+    console.log('Congratulations, your extension "releasenote-viewer" is now active!');
 
     configureHttpRequest();
 	vscode.workspace.onDidChangeConfiguration(e => configureHttpRequest());
@@ -33,7 +33,7 @@ function getMDFile(version) {
                 vscode.workspace.openTextDocument({ language: 'markdown', content: body}).then(document => {
                     vscode.window.showTextDocument(document, vscode.ViewColumn.One, false).then(editor => {
                     console.log(editor);
-                        vscode.commands.executeCommand(vscode.workspace.getConfiguration('vscode-relnote-ja').get<boolean>('showPreviewToSide') ? 'markdown.showPreviewToSide' : 'markdown.showPreview');
+                        vscode.commands.executeCommand(vscode.workspace.getConfiguration('releasenote-viewer').get<boolean>('showPreviewToSide') ? 'markdown.showPreviewToSide' : 'markdown.showPreview');
                     });
                 });
             } else {
