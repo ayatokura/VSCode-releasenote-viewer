@@ -12,7 +12,7 @@
 * 自動プレビュー
 * プレビューの開き方をオプションにより選択可能 ( Markdown プレビューのと同様の動作: `プレビューを開く`または `プレビューを横に開く` と同じ動作)
 
-![feature](images/vscode_relnote_view.gif)
+![feature](images/releasenote-viewer.gif)
 
 ## Requirements
 

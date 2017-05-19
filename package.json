@@ -10,7 +10,7 @@
     "categories": [
         "Other"
     ],
-    "icon": "images/claudia_hanko_1494764677009.png",
+    "icon": "images/Japan.png",
     "activationEvents": [
         "onCommand:extension.relnoteja"
     ],
