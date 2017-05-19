@@ -1,65 +1,34 @@
-# releasenote-viewer README
+# README
 
-This is the README for your extension "releasenote-viewer". After writing up a brief description, we recommend including the following sections.
+[ayatokura/JP-VSCode-Docs](https://github.com/ayatokura/JP-VSCode-Docs/tree/master/release-notes) に公開している、Visual Studio Code リリースノート日本語訳を Visual Studio Code で参照するための拡張機能です
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**コマンドパレット** から下記のコマンドを実行することで、
 
-For example if there is an image subfolder under your extension project workspace:
+`Japanese Release Note: Visual Studio Code 日本語リリースノート`
 
-\!\[feature X\]\(images/feature-x.png\)
+* Markdown ファイルを Markdown モードのエディタに出力
+* 自動プレビュー
+* プレビューの開き方をオプションにより選択可能 ( Markdown プレビューのと同様の動作: `プレビューを開く`または `プレビューを横に開く` と同じ動作)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![feature](images/vscode_relnote_view.gif)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+リリースノートは github から取得するため、ネットワーク接続が必須となります
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+この拡張機能は、下記の設定項目も持っています:
 
-For example:
+* `releasenote-viewer.showPreviewToSide`: `true` or `false`
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+  * `true`: プレビューを横で開く
+  * `false`: プレビューを開く (default)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Markdown ファイルは保存されずに Untitled-* というファイル名がついたエディタに表示されます。
 
 **Enjoy!**
