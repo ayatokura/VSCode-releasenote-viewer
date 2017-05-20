@@ -11,6 +11,14 @@
         "Other"
     ],
     "icon": "images/Japan.png",
+    "homepage": "https://github.com/ayatokura/VSCode-releasenote-viewer/",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/"
+    },
+  "bugs": {
+    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/issues"
+  },
     "activationEvents": [
         "onCommand:extension.relnoteja"
     ],
