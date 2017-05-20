@@ -12,7 +12,7 @@
 * 自動プレビュー
 * プレビューの開き方をオプションにより選択可能 ( Markdown プレビューのと同様の動作: `プレビューを開く`または `プレビューを横に開く` と同じ動作)
 
-![feature](images/releasenote-viewer.gif)
+![feature](images/japan.png)
 
 ## Requirements
 
