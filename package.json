@@ -1,7 +1,7 @@
 {
     "name": "releasenote-viewer",
     "displayName": "VSCode Japanese Release Notes Viewer",
-    "description": "",
+    "description": "Display Current or Previous Japanese Release Note markdown file in Visual Studio Code",
     "version": "0.0.1",
     "publisher": "ayatokura",
     "engines": {
