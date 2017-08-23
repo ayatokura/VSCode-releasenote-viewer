@@ -2,7 +2,7 @@
     "name": "releasenote-viewer",
     "displayName": "VSCode Japanese Release Notes Viewer",
     "description": "Display Current or Previous Japanese Release Note markdown file in Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ayatokura",
     "engines": {
         "vscode": "^1.12.0"
@@ -11,14 +11,14 @@
         "Other"
     ],
     "icon": "images/japan.png",
-    "homepage": "https://github.com/ayatokura/VSCode-releasenote-viewer/",
+        "homepage": "https://github.com/ayatokura/VSCode-releasenote-viewer/",
     "repository": {
     "type": "git",
-    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/"
+        "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/"
     },
-  "bugs": {
-    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/issues"
-  },
+    "bugs": {
+        "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/issues"
+    },
     "activationEvents": [
         "onCommand:extension.relnoteja"
     ],
