@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 	vscode.workspace.onDidChangeConfiguration(e => configureHttpRequest());
 
     let disposable = vscode.commands.registerCommand('extension.relnoteja', async () => {
-        vscode.window.showQuickPick(["1.15", "1.14", "1.13", "1.12", "1.11", "1.10","1.9", "1.8", "1.7", "1.6", "1.5", "1.4", "1.3" /*, "1.2", "1.1", "1.0" */])
+        vscode.window.showQuickPick(["1.16", "1.15", "1.14", "1.13", "1.12", "1.11", "1.10","1.9", "1.8", "1.7", "1.6", "1.5", "1.4", "1.3" /*, "1.2", "1.1", "1.0" */])
         .then(function (selected) {
             if(selected){
                 let version = 'v' + selected.replace( /\./g , "_") + '_ja'; // ex: v1.8_ja
