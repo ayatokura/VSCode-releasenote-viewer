@@ -1,12 +1,24 @@
 # README
 
-[ayatokura/JP-VSCode-Docs](https://github.com/ayatokura/JP-VSCode-Docs/tree/master/release-notes) に公開している、Visual Studio Code リリースノート日本語訳を Visual Studio Code で参照するための拡張機能です
+[ayatokura/JP-VSCode-Docs](https://github.com/ayatokura/JP-VSCode-Docs/tree/master/release-notes) に公開している、Visual Studio Code リリースノート日本語訳を Visual Studio Code で参照するための拡張機能です。
+
+本バージョンから、下記コンテンツの表示をサポートしました: 
+
+* Japanese - Japanese Translated Release Notes
+* English - Original Release Notes
+* VS Code Tips and Tricks
+* Awesome VS Code
+
+> **Notes:** 未翻訳のリリースノートは、オリジナルの英語版リリースノートを表示します。
+
+そのため、拡張機能の名前を `VSCode Release Japanese Notes Viewer` から `VSCode Release Notes Viewer` に変更しました。
+
 
 ## Features
 
 **コマンドパレット** から下記のコマンドを実行することで、
 
-`Japanese Release Note: Visual Studio Code 日本語リリースノート`
+`VS Code Release Note Viewer`
 
 * Markdown ファイルを Markdown モードのエディタに出力
 * 自動プレビュー
@@ -29,6 +41,12 @@
 
 ## Known Issues
 
-Markdown ファイルは保存されずに Untitled-* というファイル名がついたエディタに表示されます。
+* Markdown ファイルは保存されずに Untitled-* というファイル名がついたエディタに表示されます。
+
+## ToDo
+
+* アイコンの変更
+* 英語版 README.md 
+
 
 **Enjoy!**
