@@ -2,6 +2,8 @@
 
 [ayatokura/JP-VSCode-Docs](https://github.com/ayatokura/JP-VSCode-Docs/tree/master/release-notes) に公開している、Visual Studio Code リリースノート日本語訳を Visual Studio Code で参照するための拡張機能です。
 
+![alt](https://raw.githubusercontent.com/ayatokura/VSCode-releasenote-viewer/master/images/contents_list.png)
+
 本バージョンから、下記コンテンツの表示をサポートしました: 
 
 * Japanese - Japanese Translated Release Notes
