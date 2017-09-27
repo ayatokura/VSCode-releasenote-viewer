@@ -1,61 +1,62 @@
 {
-    "name": "releasenote-viewer",
-    "displayName": "VSCode Japanese Release Notes Viewer",
-    "description": "Display Current or Previous Japanese Release Note markdown file in Visual Studio Code",
-    "version": "0.0.2",
-    "publisher": "ayatokura",
-    "engines": {
-        "vscode": "^1.15.0"
-    },
-    "categories": [
-        "Other"
-    ],
-    "icon": "images/japan.png",
-        "homepage": "https://github.com/ayatokura/VSCode-releasenote-viewer/",
-    "repository": {
+  "name": "releasenote-viewer",
+  "displayName": "VSCode Release Notes Viewer",
+  "description": "Display Current or Previous Japanese/English Release Note Markdown file in Visual Studio Code",
+  "version": "0.1.0",
+  "publisher": "ayatokura",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/japan.png",
+  "homepage": "https://github.com/ayatokura/VSCode-releasenote-viewer/",
+  "repository": {
     "type": "git",
-        "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/"
-    },
-    "bugs": {
-        "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/issues"
-    },
-    "activationEvents": [
-        "onCommand:extension.relnoteja"
+    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/"
+  },
+  "bugs": {
+    "url": "https://github.com/ayatokura/VSCode-releasenote-viewer/issues"
+  },
+  "activationEvents": [
+    "onCommand:extension.relnoteja"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.relnoteja",
+        "title": "VS Code Release Notes Viewer"
+      }
     ],
-    "main": "./out/src/extension",
-    "contributes": {
-        "commands": [
-        {
-            "command": "extension.relnoteja",
-            "title": "Japanese Release Note: Visual Studio Code 日本語リリースノート"
+    "configuration": {
+      "type": "object",
+      "title": "releasenote-viewer",
+      "order": 20,
+      "properties": {
+        "releasenote-viewer.showPreviewToSide": {
+          "type": "boolean",
+          "default": false
         }
-        ],
-        "configuration": {
-        "type": "object",
-        "title": "releasenote-viewer",
-        "order": 20,
-        "properties": {
-            "releasenote-viewer.showPreviewToSide": {
-            "type": "boolean",
-            "default": false
-            }
-        }
-        }
-    },
-    "scripts": {
-        "vscode:prepublish": "tsc -p ./",
-        "compile": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "typescript": "^2.0.3",
-        "vscode": "^1.0.0",
-        "mocha": "^2.3.3",
-        "@types/node": "^6.0.40",
-        "@types/mocha": "^2.2.32"
-    },
-    "dependencies": {
-        "request": "^2.81.0"
+      }
     }
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0",
+    "mocha": "^2.3.3",
+    "@types/node": "^6.0.40",
+    "@types/mocha": "^2.2.32"
+  },
+  "dependencies": {
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2"
+  }
 }
