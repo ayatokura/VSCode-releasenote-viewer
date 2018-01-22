@@ -2,7 +2,7 @@
   "name": "releasenote-viewer",
   "displayName": "VSCode Release Notes Viewer",
   "description": "Display Current or Previous Japanese/English Release Note Markdown file in Visual Studio Code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "ayatokura",
   "engines": {
     "vscode": "^1.16.0"
@@ -50,13 +50,13 @@
   },
   "devDependencies": {
     "typescript": "^2.0.3",
-    "vscode": "^1.0.0",
+    "vscode": "^1.1.10",
     "mocha": "^2.3.3",
     "@types/node": "^6.0.40",
     "@types/mocha": "^2.2.32"
   },
   "dependencies": {
-    "request": "^2.82.0",
+    "request": "^2.83.0",
     "request-promise": "^4.2.2"
   }
 }
